@@ -1,0 +1,9 @@
+{
+  "threshold": 2,
+  "cloudrailID": "",
+  "cloudIDs": {
+    "Dropbox": "",
+    "GoogleDrive": "",
+    "OneDrive": ""
+  }
+}

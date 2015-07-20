@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cloud of Clouds</title>
+    
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/skeleton.css" type="text/css" />
+    <link rel="stylesheet" href="css/chosen.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/cloudrail.js"></script>
+    <script type="text/javascript" src="lib/crypto/aes.js"></script>
+    <script type="text/javascript" src="lib/crypto/jsencrypt.js"></script>
+    <script type="text/javascript" src="lib/secrets/secrets.min.js"></script>
+    <script type="text/javascript" src="lib/frontend/mustache.js"></script>
+    <script type="text/javascript" src="lib/frontend/chosen.jquery.min.js"></script>
+    <script type="text/javascript" src="lib/frontend/chosen.proto.min.js"></script>
+    <script type="text/javascript" src="js/cloudofclouds.js"></script>
+</head>
+<body>
+	<div id="container">
+		<h1>Cloud of Clouds</h1>
+		<div class="row">
+			<div class="four columns">
+				<div id="loginContainer">
+					<h5>Anmeldung</h5>
+					<p class="loginText">Anmeldung erst nach Verbindung mit mindestens {{threshold}} Clouds möglich</p>
+				</div>
+				<hr>
+				<div id="cloudsContainer"></div>
+			</div>
+			<div class="eight columns">
+				<div id="uploadContainer">
+					<h5>Upload</h5>
+                    <p>Upload erst nach Verbindung mit allen Clouds möglich</p>
+				</div>
+				<hr>
+				<div id="fileContainer">
+					<h5>Dateiansicht</h5>
+					<p>Dateiansicht erst nach Verbindung mit mindestens {{threshold}} Clouds möglich</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

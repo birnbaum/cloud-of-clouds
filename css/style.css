@@ -1,0 +1,76 @@
+#container {
+	width: 960px;
+	margin: 20px auto 0;
+}
+
+#container>div>div {
+	padding: 15px;
+    border: 1px solid #E1E1E1;
+	border-radius: 4px;
+}
+
+h1 {
+	text-align: center;
+	margin: 5rem 0;
+}
+hr {
+	margin: 1.5rem 0
+}
+li {
+	margin-bottom: 0;
+}
+
+#loginContainer p {
+	margin-bottom: 1rem;
+}
+
+.cloud {
+	margin-bottom: 2rem;
+}
+.cloud:last-of-type {
+	margin-bottom: 0;
+} 
+.cloud h5 {
+	margin-bottom: 1rem;
+}
+
+.noAccess {
+	opacity: 0.3;
+}
+
+#fileChooser {
+    width: 49%;
+}
+#recipients {
+    width: 309px;
+}
+
+#uploadContainer .chosen-container {
+    border-color: #bbb;
+    border-radius: 3px;
+}
+#uploadContainer .chosen-container .chosen-choices {
+    height: 38px !important;
+    margin-bottom: 15px;
+    background: 0;
+    border-color: #aaa;
+    border-radius: 3px;
+    box-shadow: 0 0;
+}
+#uploadContainer .chosen-container .chosen-choices input {
+    height: 35px;
+}
+#uploadContainer .chosen-container .search-choice {
+    height: 24px;
+    padding: 5px;
+    margin: 6px 5px 0 0;
+    background: #f5f5f5;
+    box-shadow: 0 0;
+}
+#uploadContainer .chosen-container .chosen-drop {
+    top: 38px;
+}
+
+button, .button {
+    margin-bottom: 0;
+}

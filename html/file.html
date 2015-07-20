@@ -1,0 +1,27 @@
+<table class="u-full-width">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Größe</th>
+			<th>Adressat</th>
+			<th></th>
+		</tr>
+	</thead>
+  	<tbody>
+    {{#files}}
+    	<tr {{^access}}class="noAccess"{{/access}}>
+    		<td>{{name}}</td>
+    		<td>{{size}}</td>
+    		<td>{{recipients}}</td>
+    		<td>
+    			{{#access}}<button data-name="{{name}}" class="downloadButton u-full-width">Download</button>{{/access}}
+    		</td>
+    	</tr>
+	{{/files}}	
+    {{^files}}
+    	<tr>
+    		<td colspan="4">Keine Dateien verügbar</td>
+    	</tr>
+	{{/files}}					
+    </tbody>
+</table>

@@ -1,0 +1,11 @@
+<div class="uploadContent">
+    <input type="file" id="fileChooser">
+
+    <select id="recipients" multiple="multiple">
+        {{#names}}
+            <option value="{{.}}">{{.}}</option>
+        {{/names}}
+    </select>
+
+    <button class="uploadButton u-full-width">Speichern</button>
+</div>
